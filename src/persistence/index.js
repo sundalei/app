@@ -1,2 +1,2 @@
-if (process.env.MYSQL_HOST) module.exports = require('./mysql');
+if (process.env.MARIADB_HOST) module.exports = require('./mysql');
 else module.exports = require('./sqlite');
